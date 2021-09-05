@@ -1,0 +1,297 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+}
+
+.logo {
+	width: auto;
+	margin-top: 60px;
+	text-align: center;
+}
+
+nav {
+	margin-top: 35px;
+	right: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	color: #5f5a5a;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #E1A3ED;
+	text-decoration: underline;
+}
+
+.img-menu {
+	position: absolute;
+	top: 300px;
+	left: 0;
+}
+
+.img-top {
+	opacity: 30%;
+}
+
+h1 {
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	color: #873896;
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: none;
+	text-align: center;
+}
+
+.top-menu {
+	margin-top: 250px;
+}
+
+.quemsomos {
+	position: inherit;
+	margin-top: 200px;
+}
+
+h2 {
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	color: #E1A3ED;
+	font-size: 40px;
+	text-shadow: none;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.col-1 {
+	margin-right: 30%;
+	margin-left: 30%;
+	text-align: justify;
+}
+
+.calcula-imc {
+	position: inherit;
+	margin-top: 100px;
+}
+
+.floral {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.container {
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section {
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2 {
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	margin-bottom: .5em;
+}
+
+table {
+	width: 100%;
+	margin-bottom: .5em;
+	table-layout: fixed;
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th {
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label {
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo {
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio {
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo {
+	width: 33%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+button {
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color: #E1A3ED;
+	border-color: #E1A3ED;
+	width: 20%;
+	display: block;
+	clear: both;
+	margin: 10px 0px;
+	border-radius: 10px;
+}
+
+button:active {
+	margin-top: 0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+	background-color: gray;
+	border-color: darkgray;
+}
+
+.adicionar-paciente {
+	margin-top: 30px;
+}
+
+.campo-invalido {
+	border: 1px solid rgb(131, 57, 131);
+}
+
+.paciente-invalido {
+	background-color: rgb(169, 115, 185);
+}
+
+#mensagens-erro {
+	color: red;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.invisivel {
+	display: none;
+}
+
+.souaparecida {
+	margin-top: 50px;
+}
+
+.col-2 {
+	width: 20%;
+	float: left;
+	margin-left: 5%;
+	width: auto;
+	height: auto;
+}
+
+.col-3 {
+	width: 45%;
+	float: right;
+	margin-right: 10%;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+}
+
+footer {
+	background: url(../img/contato.jpg) no-repeat center center, no-repeat center top;
+	height: 900px;
+	width: auto;
+	box-sizing: border-box;
+}
+
+footer .intro-text {
+	height: 10px;
+	margin-top: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .intro-text>h1 {
+	color: #873896;
+	text-align: center;
+}
+
+footer .intro-text .name-index {
+	margin-top: 200px;
+	font-size: 50px;
+}
+
+footer .social-text {
+	height: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .social-text>h1 {
+	color: #873896;
+	text-align: center;
+}
+
+footer .social-text .name-index {
+	margin-top: 100px;
+	font-size: 50px;
+}
+
+footer a {
+	margin-top: 300px;
+}
+
+footer p {
+	margin-top: 450px;
+	color: #873896;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.img-copy{
+	text-align: center;
+}
