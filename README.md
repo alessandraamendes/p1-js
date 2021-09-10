@@ -1,2 +1,2 @@
 # p1-js
- Primeiro projeto curso Javascript
+ Primeiro projeto curso Javascript - Alura
